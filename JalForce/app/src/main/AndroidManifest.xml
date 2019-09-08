@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssvtech.jalforce1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.dev.cromer.jason.coverme.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/nav_header_subtitle"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+
+        </activity>
+        <activity android:name=".MapActivity"></activity>
+        <activity android:name=".CustomerLedgerListActivity" />
+        <activity android:name=".CustomerLedgerSearchByIdActivity" />
+        <activity android:name=".CustomerSearchByIdActivity" />
+        <activity android:name=".TripSelectionActivity" />
+        <activity android:name=".TripActionsActivity" />
+        <activity android:name=".RouteReportActivity" />
+        <activity android:name=".DailyCanDeliveryReportByRouteActivity" />
+        <activity android:name=".RouteSelectionActivity" />
+        <activity android:name=".DailyRoutePlan" />
+        <activity android:name=".CanDeliveryActivity" />
+        <activity android:name=".TotalCansWithCustomersActivity" />
+        <activity android:name=".TotalCansInPlantActivity" />
+        <activity android:name=".DailyDeliveryActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBFxN-rBwqRJni8MBTnVoSwaVlIBqxsF0M" />
+    </application>
+
+</manifest>

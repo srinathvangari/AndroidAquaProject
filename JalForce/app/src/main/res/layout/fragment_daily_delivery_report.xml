@@ -1,0 +1,155 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ssvtech.jalforce1.fragment.report.DailyDeliveryReportFragment">
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3d455b"
+
+        android:layout_alignParentLeft="true" >
+
+
+        <HorizontalScrollView
+            android:id="@+id/hscrll1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="fill_parent"
+                android:layout_gravity="center"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LLY"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+
+
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center|center_horizontal">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/routeid"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|center_horizontal"
+                                android:gravity="center|center_horizontal|left"
+                                android:text="@string/route"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/dailyroutesummaryreport"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center|center_horizontal"
+                                android:text="@string/route"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="25dp"
+                                android:textStyle="bold" />
+
+
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/number"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|center_horizontal"
+                                android:gravity="center|center_horizontal|left"
+                                android:text="@string/serial"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/delivery"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center|center_horizontal"
+                                android:text="@string/route"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/return1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|center_horizontal"
+                                android:gravity="center|center_horizontal|left"
+                                android:text="@string/return1"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+                            <TextView
+                                android:id="@+id/stock"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="20dp"
+                                android:gravity="center|center_horizontal"
+                                android:text="@string/stock"
+                                android:textAllCaps="true"
+                                android:textColor="#86AD33"
+                                android:textSize="15dp"
+                                android:textStyle="bold" />
+
+
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+                </LinearLayout>
+
+
+                <TableLayout
+                    android:id="@+id/table_main"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/LLY"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true" >
+                </TableLayout>
+            </RelativeLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+</FrameLayout>

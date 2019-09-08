@@ -1,0 +1,235 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_gravity="top"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/route"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/routeView"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text=""
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/date"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/dateView"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/NoOfCustomers"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/numberOfCustomers"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/PendingCans"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/pendingCans"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </TableRow>
+
+
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/drivername21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/LoadCansonthisroute"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/loadCan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:dropDownWidth="match_parent"
+                android:gravity="center"
+                android:isScrollContainer="true"
+                android:spinnerMode="dialog"
+                android:textSize="32dp" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/drivername21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:gravity="center_horizontal"
+                android:text="@string/DriverName"
+                android:textAllCaps="true"
+                android:textColor="#000000"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+
+            <Spinner
+                android:id="@+id/drivername"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="60dp"
+                android:gravity="center"
+                android:scrollbarSize="10dp"
+                android:spinnerMode="dialog"
+                android:textSize="22dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="#ffffff"
+        android:gravity="bottom"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="15dp"
+            android:gravity="bottom">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/textview"
+                android:insetLeft="2dp"
+                android:insetRight="6dp"
+                android:text="@string/submit"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/backToListButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:insetRight="2dp"
+                android:text="@string/BacktoList"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:insetLeft="4dp"
+                android:insetRight="2dp"
+                android:text="@string/Home"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

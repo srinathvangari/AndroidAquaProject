@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "154046083177",
+    "firebase_url": "https://jalforce.firebaseio.com",
+    "project_id": "jalforce",
+    "storage_bucket": "jalforce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154046083177:android:530a5b7cd3179786",
+        "android_client_info": {
+          "package_name": "com.ssvtech.jalforce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154046083177-p7bc3j0927ismd7mkccvotbp3e14j5nk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssvtech.jalforce",
+            "certificate_hash": "cac1adfd762c8f9c61191eca9e8975f8d812d0e0"
+          }
+        },
+        {
+          "client_id": "154046083177-be2gg93eeerli25mhd4r576idd3vvdvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzlNDb0jERZ28nt_lYcYlsI939sMxRkqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154046083177-be2gg93eeerli25mhd4r576idd3vvdvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

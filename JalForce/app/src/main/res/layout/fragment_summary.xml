@@ -1,0 +1,97 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ssvtech.jalforce1.fragment.SummaryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="top"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/TOTAL_CANS_IN_PLANT"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/cansInPlant"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text=""
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:hint="@string/TOTAL_CANS_WITH_CUSTOMER"
+                app:boxBackgroundColor="#ffffff">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/cans_with_customer"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:editable="false"
+                    android:gravity="center"
+                    android:text="" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="15dp"
+                android:insetLeft="0dp"
+                android:insetRight="0dp"
+                android:text="@string/Home"
+                android:textSize="16sp"
+                android:textStyle="normal|bold" />
+        </TableRow>
+
+        </TableLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

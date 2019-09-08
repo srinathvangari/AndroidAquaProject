@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JalForce</string>
+    <string name="dailydelivery_button">रोज़ी डेलिवरी</string>
+    <string name="dailyrouteplan_button">दैनिक मार्ग योजना</string>
+    <string name="route">मार्ग</string>
+    <string name="date">दिनांक</string>
+    <string name="NoOfCustomers">ग्राहकों की संख्या</string>
+    <string name="StockCansonthisroute">इस मार्ग पर स्टॉक डिब्बे</string>
+    <string name="LoadCansonthisroute">डिब्बे लोड किए गए</string>
+    <string name="DriverName">चालक का नाम</string>
+    <string name="submit">जमा करें</string>
+    <string name="BacktoList">दोबारा सूची को जाएंं</string>
+    <string name="Home">डैशबोर्ड</string>
+    <string name="TotalcansinPlant">प्लांट में कुल डिब्बे</string>
+    <string name="Totalcanswithcustomers">ग्राहकों के पास कुल डिब्बे</string>
+    <string name="Report">रूट रिपोर्ट</string>
+    <string name="PaymentPending">पेमेंट</string>
+    <string name="Logout">लोग आउट</string>
+
+
+    <string name="totaldeliveredcans">कुल वितरित डिब्बे</string>
+    <string name="PendingCans">शिल्लक कॅन</string>
+    <string name="CustomerName">ग्राहक का नाम</string>
+    <string name="CustomerAddress">ग्राहक का नाम</string>
+    <string name="NoOfReturnCans">रीकामे कॅन</string>
+    <string name="NoOfCansDelivered">भरती कॅन</string>
+    <string name="tripAction">ट्रिप प्लानर</string>
+    <string name="customersearchbyid">शोधा</string>
+    <string name="search">खोज</string>
+    <string name="SearchWithCustomerId">खोज</string>
+    <string name="customerledgersearchid">लेडजर</string>
+    <string name="DASHBOARD">डैशबोर्ड</string>
+    <string name="Dashboard1">डैशबोर्ड</string>
+    <string name="Summary">कॅन स्टॉक</string>
+    <string name="counterSale">काउंटर बिक्री</string>
+    <string name="liveTracking">लाइव ट्रैकिंग</string>
+
+
+    <string name="firebase_email" translatable="false">test@example.com</string>
+    <string name="firebase_password" translatable="false">password</string>
+    <string name="title_activity_navigation_drawer">कृष्ण जल</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">में स्वागत</string>
+    <string name="nav_header_subtitle">कृष्ण जल</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="action_settings">सेटिंग्स</string>
+
+    <string name="menu_home">होम</string>
+    <string name="menu_gallery">गेलरी</string>
+    <string name="menu_slideshow">स्लाइड शो</string>
+    <string name="menu_tools">उपकरण</string>
+    <string name="menu_share">शेयर</string>
+    <string name="menu_send">भेजना</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Sucessalert">सफलतापूर्वक जमा</string>
+    <string name="Failedalert">सबमिशन फेल हो गया</string>
+    <string name="ok">ठीक</string>
+    <string name="cancel">रद्द करना</string>
+
+
+    <string name="DAILY_ROUTE_SUMMARY_RECORD_NOT_THERE">मार्ग योजना दिन के लिए दर्ज नहीं की गई</string>
+    <string name="DAILY_DELIVERY_EXCEDDING_LOADED_CANS">डिलिवरी लोडेड डिब्बे पर एक्साइज</string>
+    <string name="DAILY_DELIVERY_SUCCESSFUL_TO_CUSTOMER">ग्राहक के लिए सफल डिलिवरी</string>
+    <string name="DAILY_DELIVERY_RETURN_CANS_EXCEDDING_PENDING_CANS">वापस आने वाले पंजों की अधिकता</string>
+    <string name="DAILY_ROUTE_SUMMARY_MULTIPLE_RECORDS_FOUNDED">एकाधिक रिकॉर्ड मिले</string>
+    <string name="DAILY_ROUTE_TRIP_HAS_ALREADY_ENDED">ट्रिप पहले ही खत्म हो चुकी है</string>
+
+    <string name="DAILY_ROUTE_TRIP_STARTED_SUCESSFULLY">ट्रिप की शुरुआत सफल रही</string>
+    <string name="DAILY_ROUTE_TRIP_ENDED_SUCESSFULLY"> ट्रिप एंडेड सफलतापूर्वक</string>
+
+    <string name="TOTAL_CANS_IN_PLANT">प्लांट में डिब्बे</string>
+    <string name="TOTAL_CANS_WITH_CUSTOMER">ग्राहकों के साथ डिब्बे</string>
+    <string name="ENDLISH">अंग्रेज़ी</string>
+    <string name="HINDI">हिंदी</string>
+
+
+    <string name="Login">लॉग इन करें</string>
+    <string name="Enter_Name">नाम दर्ज</string>
+    <string name="Password">पासवर्ड</string>
+    <string name="LOGIN">लॉग इन करें</string>
+    <string name="Payment">पेमेंट</string>
+    <string name="routeplan_button">मार्ग योजना</string>
+    <string name="Start_Trip_of_Route">रूट की यात्रा शुरू करें</string>
+    <string name="Alert">चेतावनी</string>
+
+    <string name="FinalPendingCansonthisroute">इस मार्ग पर अंतिम लंबित डिब्बे</string>
+    <string name="FilledCansReturn">भरा हुआ कैन्स रिटर्न</string>
+    <string name="Enter_Customer_Id">ग्राहक आईडी दर्ज करें</string>
+    <string name="NO_RECORD_FOUND">कोई रिकॉर्ड नहीं मिला</string>
+    <string name="ONLY_DELIVERED">Delivered</string>
+    <string name="ONLY_RETURN">Return</string>
+    <string name="ONLY_PENDING">Pending</string>
+    <string name="COMING_SOON">जल्द आ रहा है</string>
+    <string name="EmptyCansReturn">खाली डिब्बे वापसी</string>
+
+
+    <string name="customer">ग्राहक</string>
+    <string name="istock">Iस्टॉक</string>
+    <string name="fstock">Fस्टॉक</string>
+    <string name="return1">एम्प्टी</string>
+    <string name="return2">भर</string>
+    <string name="load">लोड</string>
+    <string name="delivery">डेलिवरी</string>
+    <string name="driver1">ड्राइवर</string>
+    <string name="dailyroutesummaryreport">रूट रिपोर्ट</string>
+
+    <string name="dailydeliveryreport">डेलिवरी रिपोर्ट</string>
+    <string name="serial">नंबर</string>
+    <string name="customerid">ग्राहक नंबर</string>
+    <string name="stock">स्टॉक</string>
+
+
+    <string name="previousDateDeliveryReport">पिछली डिलीवरी</string>
+    <string name="ENTERED_DATE_NOT_VALID">कृपया dd-MMM-YYYY फॉर्मेट में तारीख डालें</string>
+    <string name="date2">दिनांक 10-SEP-2019 की तरहं</string>
+
+
+
+</resources>
+

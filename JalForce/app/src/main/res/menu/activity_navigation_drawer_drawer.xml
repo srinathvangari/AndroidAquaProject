@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:enabled="true"
+            android:tint="@color/colorPrimary"
+            android:icon="@drawable/ic_calculator"
+            android:title="@string/Dashboard1"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_routeplan"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/routeplan_button" />
+        <item
+            android:id="@+id/nav_delivery"
+            android:icon="@drawable/ic_delivery_truck"
+            android:title="@string/dailydelivery_button" />
+        <item
+            android:id="@+id/nav_payment"
+            android:icon="@drawable/ic_money"
+            android:title="@string/Payment" />
+
+
+
+        <item
+            android:id="@+id/nav_summary"
+            android:enabled="true"
+            android:tint="@color/colorPrimary"
+            android:icon="@drawable/ic_analytics"
+            android:title="@string/Summary"
+            android:visible="true" />
+        <item
+            android:id="@+id/nav_tripAction"
+            android:icon="@drawable/ic_teamwork"
+            android:title="@string/tripAction" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="@string/search" />
+        <item
+            android:id="@+id/nav_ledger"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/customerledgersearchid" />
+
+
+
+        <item
+            android:id="@+id/nav_livetracking"
+            android:icon="@drawable/ic_clipboard"
+            android:title="@string/liveTracking" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_clipboard"
+            android:title="@string/Report" />
+
+        <item
+            android:id="@+id/nav_countersale"
+            android:icon="@drawable/ic_contract"
+            android:title="@string/counterSale" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/Logout" />
+    </group>
+
+   <!-- <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item> -->
+
+</menu>
